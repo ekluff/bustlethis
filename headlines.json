@@ -1,0 +1,22 @@
+{ "headlines": [{
+    "author":"Michael Bunker",
+    "headline":"Man adopts 27 cats",
+    "tag":"wildlife",
+    "image":"http://i.kinja-img.com/gawker-media/image/upload/s--aCcLLbrx--/18eqvbfte1720jpg.jpg"
+  }, {
+    "author":"Austin Kincaid",
+    "headline":"How to Eat Bacon and Eggs for every Meal",
+    "tag":"food",
+    "image":"http://3.bp.blogspot.com/_ASMg8rwiBTQ/TTKYXpKQynI/AAAAAAAAAbg/wgc8p6-563Q/s1600/DSC01818ew.jpg"
+  }, {
+    "author":"Evan Clough",
+    "headline":"How to travel the World in a Hot Air Balloon and probably NOT die",
+    "tag":"travel",
+    "image":"http://www.horace.org/blog/wp-content/uploads/2007/08/450_melting_070825.jpg"
+  }, {
+    "author":"Jessica Joly",
+    "headline":"A Guide to Arkansas' Most Adorable Hippopotamuses",
+    "tag":"travel",
+    "image":"http://i.imgur.com/jKP5Lwl.jpg"
+  }]
+}
