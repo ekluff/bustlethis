@@ -1,9 +1,26 @@
-<h1>Welcome to Generic "News" Site</h1>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+  <div class="collapse navbar-collapse">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Link</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Home</a></li>
+    </ul>
+  </div>
+  </div>
+</nav>
 
-<ul>
+<div class="container-fluid">
+
+  <h1>Welcome to Generic "News" Site</h1>
+
   {{#each model as |headline|}}
     {{headline-tile headline=headline}}
   {{/each}}
-</ul>
+
+</div>
+
+
 
 {{outlet}}

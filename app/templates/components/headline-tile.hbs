@@ -1,22 +1,23 @@
-<div class="col-md-4">
-  <div class="row">
-    <div class="col-md-6">
-      <div class="left-align">
-        {{headline.author}}
+
+  <div class="col-md-4">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="text-left">
+          <span class="standard-description">{{headline.author}}</span>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="text-right">
+          <span class="standard-description">{{headline.tag}}</span>
+        </div>
       </div>
     </div>
-    <div class="col-md-6">
-      <div class="right-align">
-        {{headline.tag}}
+    <div class="row">
+      <div class="text-center">
+        <span class="standard-description">{{headline.headline}}</span>
       </div>
     </div>
-  </div>
-  <div class="row">
-    <div class="center-align">
-      {{headline.headline}}
+    <div class="row height-control">
+      <img src={{headline.image}} alt={{headline.headline}} class="img-responsive"/>
     </div>
   </div>
-  <div class="row">
-    <img src={{headline.image}} alt={{headline.headline}} />
-  </div>
-</div>
