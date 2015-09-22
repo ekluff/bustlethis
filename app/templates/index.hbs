@@ -1,5 +1,9 @@
 <h1>Welcome to Generic "News" Site</h1>
 
-
+<ul>
+  {{#each model as |headline|}}
+    {{headline-tile headline=headline}}
+  {{/each}}
+</ul>
 
 {{outlet}}
